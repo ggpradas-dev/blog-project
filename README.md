@@ -1,6 +1,8 @@
 # Blog Project 📘
 
-Este repositorio contiene una aplicación web tipo blog, desarrollada como proyecto personal y académico, con el objetivo de consolidar habilidades prácticas en desarrollo web full stack utilizando el stack MERN. La aplicación permite crear, leer, actualizar y eliminar artículos, con posibilidad de incluir imágenes, todo desde una interfaz moderna y responsive.
+Aplicación web tipo blog desarrollada como proyecto personal y académico, con el objetivo de consolidar habilidades prácticas en desarrollo web full stack utilizando el stack MERN. La aplicación permite crear, leer, actualizar y eliminar artículos, con posibilidad de incluir imágenes, todo desde una interfaz moderna y responsive.
+
+---
 
 ## 🛠 Tecnologías utilizadas
 
@@ -21,6 +23,8 @@ Este repositorio contiene una aplicación web tipo blog, desarrollada como proye
 - **Validator**: Validación y sanitización de datos.
 - **CORS, dotenv, Firebase Admin**: Seguridad, configuración y conexión a servicios externos.
 
+---
+
 ## 🧱 Estructura del proyecto
 
 ### Frontend
@@ -38,6 +42,8 @@ Este repositorio contiene una aplicación web tipo blog, desarrollada como proye
 - `routes/`: Definición de endpoints RESTful.
 - `index.js`: Configuración principal del servidor Express.
 
+---
+
 ## 🔍 Funcionalidades principales
 
 - ✍️ Crear, leer, actualizar y eliminar artículos (CRUD).
@@ -46,6 +52,8 @@ Este repositorio contiene una aplicación web tipo blog, desarrollada como proye
 - 💡 Editor de texto enriquecido con TipTap.
 - 🌙 Alternancia de tema (claro/oscuro).
 - 📱 Diseño responsive (mobile-first).
+
+---
 
 ## 🚀 Despliegue en producción
 
@@ -56,13 +64,37 @@ La aplicación está desplegada en Render:
 - **Base de datos**: MongoDB Atlas.
 - **Imágenes**: Firebase Storage.
 
+---
 
 ## 🔒 Posibles mejoras
-- Generación automática de artículos con IA.
-- Autenticación de usuarios para limitar el CRUD a los usuarios autenticados.
-- Comentarios y reacciones en los artículos a modo de red social.
-- Categorización temática de artículos.
-- Mejorar las funcionalidades de personalización para el editor de texto.
+
+- 🧠 Generación automática de artículos con IA.
+- 🔐 Autenticación de usuarios para limitar el CRUD a los usuarios autenticados.
+- 💬 Comentarios y reacciones en los artículos a modo de red social.
+- 🗂 Categorización temática de artículos.
+- 📝 Mejorar las funcionalidades de personalización para el editor de texto.
+
+---
 
 ## 📄 Licencia
+
 Este proyecto fue desarrollado como parte de un Trabajo de Fin de Grado y puede ser utilizado para fines educativos y de portafolio personal. No se permite su uso comercial sin autorización.
+
+---
+
+## 🌐 Demo
+
+Puedes probar la aplicación desde:  
+[**blog-project-q767.onrender.com**](https://blog-project-q767.onrender.com)
+
+---
+
+## 📚 About (EN)
+
+Blog-style web application developed as the final project of an Advanced Vocational Training program, built with the MERN stack and deployed to Render.
+
+---
+
+## 🏷️ Topics
+
+`nodejs` • `reactjs` • `express` • `mongodb-atlas` • `firebase-storage` • `css` • `mern-stack`
