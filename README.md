@@ -1,100 +1,105 @@
 # Blog Project 📘
 
-Aplicación web tipo blog desarrollada como proyecto personal y académico, con el objetivo de consolidar habilidades prácticas en desarrollo web full stack utilizando el stack MERN. La aplicación permite crear, leer, actualizar y eliminar artículos, con posibilidad de incluir imágenes, todo desde una interfaz moderna y responsive.
+A modern and responsive full-stack web application that simulates a blog platform. Developed as both a personal and academic project to solidify full-stack web development skills using the **MERN** stack. The app allows users to create, read, update, and delete (CRUD) articles, including image uploads, all within a clean and interactive UI.
+
+
+### 🌐 <a href="https://blog-project-q767.onrender.com" target="_blank">Open The App Demo</a>
 
 ---
 
-## 🛠 Tecnologías utilizadas
+## 🎯 Problem Statement
 
-### Frontend
-- **React**: Biblioteca principal para construir la interfaz de usuario.
-- **React Router DOM**: Enrutamiento SPA sin recargas de página.
-- **React Toastify**: Notificaciones tipo "toast".
-- **DOMPurify**: Sanitización de HTML para evitar XSS.
-- **TipTap Editor**: Editor de texto enriquecido modular.
-- **Vite**: Bundler y servidor de desarrollo ultrarrápido.
-- **CSS**: Diseño responsive con enfoque mobile-first.
-
-### Backend
-- **Node.js & Express**: Plataforma de servidor y framework para construir la API REST.
-- **MongoDB & Mongoose**: Base de datos NoSQL y ODM para modelado de datos.
-- **Firebase Storage**: Almacenamiento en la nube para imágenes.
-- **Multer**: Middleware para subir archivos.
-- **Validator**: Validación y sanitización de datos.
-- **CORS, dotenv, Firebase Admin**: Seguridad, configuración y conexión a servicios externos.
+Creating dynamic, content-driven platforms is a common requirement in web development. This project addresses that challenge by building a **blog-style application** from scratch, with features like content creation, search, image upload, and responsive design. It also emphasizes clean architecture using the **MVC pattern** on the backend and a **RESTful API** for structured client-server interaction.
 
 ---
 
-## 🧱 Estructura del proyecto
+## 🛠️ Technologies Used
 
-### Frontend
-- `src/`
-  - `components/`: Componentes reutilizables divididos por función (layout, páginas, UI, etc.).
-  - `styles/`: Estilos CSS globales.
-  - `helpers/`: Funciones auxiliares como peticiones AJAX.
-  - `hooks/`: Hooks personalizados.
-  - `routes/`: Sistema de navegación interna con React Router.
-  - `App.js` / `main.js`: Punto de entrada y renderizado principal.
+### 🔹 Frontend
+- **React** – UI library for building interactive interfaces
+- **React Router DOM** – Single Page Application navigation
+- **React Toastify** – Toast-style user notifications
+- **DOMPurify** – HTML sanitization to prevent XSS
+- **TipTap** – Modular rich text editor
+- **Vite** – Ultra-fast dev server and build tool
+- **CSS (mobile-first)** – Responsive layout
 
-### Backend
-- `controllers/`: Lógica de negocio (CRUD de artículos).
-- `models/`: Esquemas de datos con Mongoose.
-- `routes/`: Definición de endpoints RESTful.
-- `index.js`: Configuración principal del servidor Express.
-
----
-
-## 🔍 Funcionalidades principales
-
-- ✍️ Crear, leer, actualizar y eliminar artículos (CRUD).
-- 🖼 Subida de imágenes con integración a Firebase Storage.
-- 🔎 Búsqueda de artículos por título o contenido.
-- 💡 Editor de texto enriquecido con TipTap.
-- 🌙 Alternancia de tema (claro/oscuro).
-- 📱 Diseño responsive (mobile-first).
+### 🔹 Backend
+- **Node.js + Express** – RESTful API built using MVC architecture
+- **MongoDB + Mongoose** – NoSQL database and data modeling
+- **Firebase Storage** – Image storage in the cloud
+- **Multer** – Middleware for file uploads
+- **Validator** – Input validation and sanitization
+- **CORS, dotenv, Firebase Admin** – Security, config, and service connections
 
 ---
 
-## 🚀 Despliegue en producción
+## 🧩 Key Features
 
-La aplicación está desplegada en Render:
-
-- **Frontend**: Servicio estático.
-- **Backend/API**: Servicio web con variables de entorno configuradas.
-- **Base de datos**: MongoDB Atlas.
-- **Imágenes**: Firebase Storage.
-
----
-
-## 🔒 Posibles mejoras
-
-- 🧠 Generación automática de artículos con IA.
-- 🔐 Autenticación de usuarios para limitar el CRUD a los usuarios autenticados.
-- 💬 Comentarios y reacciones en los artículos a modo de red social.
-- 🗂 Categorización temática de artículos.
-- 📝 Mejorar las funcionalidades de personalización para el editor de texto.
+- ✍️ Full CRUD functionality for articles  
+- 🖼 Image upload via Firebase Storage  
+- 🔍 Article search by title or content  
+- 💡 Rich text editing with TipTap  
+- 🌙 Light/dark mode toggle  
+- 📱 Mobile-first responsive design  
 
 ---
 
-## 📄 Licencia
+## 🚀 Run Locally
 
-Este proyecto fue desarrollado como parte de un Trabajo de Fin de Grado y puede ser utilizado para fines educativos y de portafolio personal. No se permite su uso comercial sin autorización.
+1. Clone this repo:
+
+    ```bash
+    git clone https://github.com/ggpradas-dev/blog-project.git
+    cd blog-project
+
+2. Install frontend and backend dependencies:
+
+    ```bash
+   cd client && yarn install
+   cd server && npm install
+
+3. Set up environment variables:
+
+    ```bash
+    MONGO_URI, FIREBASE_CONFIG, PORT, etc. in .env
+
+4. Start the backend and frontend:
+
+    ```bash
+    cd client && npm run dev
+   cd server && npm start
 
 ---
 
-## 🌐 Demo
-
-Puedes probar la aplicación desde:  
-[**blog-project-q767.onrender.com**](https://blog-project-q767.onrender.com)
+## ✅ Professional Checklist
+- Full CRUD operations
+- RESTful API with Express
+- MVC architecture
+- Modular frontend structure
+- Rich text editor integration
+- Secure HTML sanitization
+- Responsive, mobile-first design
+- Clean, readable code
 
 ---
 
-## 📚 About (EN)
+## 💡 Future Ideas
+- AI-generated article drafts
+- User authentication for restricted CRUD
+- Comments and social-like reactions
+- Thematic categorization
+- Advanced editor customization
 
-Blog-style web application developed as the final project of an Advanced Vocational Training program, built with the MERN stack and deployed to Render.
+---
+
+## 📩 Contact
+Created by Gabriela García </br>
+Check out more at /ggpradas-dev
 
 ---
 
 ## 🏷️ Topics
+mern-stack • reactjs • express • nodejs • mongodb • mongoose • firebase-storage • css • vite • rest-api • mvc-pattern • rich-text-editor • tiptap • react-router • dompurify • toast-notifications • fullstack-development • crud • responsive-design
 
-`nodejs` • `reactjs` • `express` • `mongodb-atlas` • `firebase-storage` • `css` • `mern-stack`
+---
