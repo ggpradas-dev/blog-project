@@ -31,16 +31,12 @@ export const TipTapEditor = ({ onChange, defaultValue }) => {
     editorProps: {
       handlePaste(view, event) {
         event.preventDefault();
-
-        // Extraemos texto puro del portapapeles
-        let text = event.clipboardData.get('text/plain');
-
-        // Normalizamos caracteres especiales (acentos y símbolos)
-        text = decodeURIComponent(escapee(text));
-
-        // Insertamos el texto limpio en el editor
+      
+        const text = event.clipboardData.getData('text/plain');
+      
+        // Inserta directamente el texto sin decodificaciones dudosas
         view.dispatch(view.state.tr.insertText(text));
-
+      
         return true;
       },
     },
